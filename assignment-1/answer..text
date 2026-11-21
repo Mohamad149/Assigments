@@ -1,0 +1,16 @@
+1) مسار ملف CSS (قيمة href) في كل صفحة:
+- index.html: styles.css
+- pages/courses.html: ../styles.css
+
+2) الـ CSS Selector الذي ينسّق حالة الكورس المكتمل:
+.course-card[data-status="full"] .status
+
+الشرح: يختار العنصر الذي يحمل class="status" داخل عنصر يحمل class="course-card"
+وقيمة الخاصية data-status="full". في هذا الواجب يطابق span الذي يحتوي
+النص "اكتمل العدد" داخل بطاقة CSS Foundations فقط.
+
+3) التحقق من الاختبار المطلوب:
+- تغيير --brand في :root يغيّر لون h1 في الصفحتين ولون h2 في بطاقتي الكورسات.
+- عند تغيير data-status في بطاقة HTML Basics من open إلى full وتعديل النص إلى
+  "اكتمل العدد"، يصبح لون خلفية span.status رماديًا دون تعديل بطاقة CSS Foundations.
+- بعد الاختبار أُعيدت بطاقة HTML Basics إلى الحالة الأصلية open.
