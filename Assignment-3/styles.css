@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px 16px;
+    background-color: #F1F5F9;
+    font-family: Arial, sans-serif;
+    text-align: right;
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0 0 6px;
+    font-size: 30px;
+    color: #0F172A;
+}
+
+.intro {
+    margin: 0 0 24px;
+    color: #64748B;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-right-width: 6px;
+    border-radius: 12px;
+    padding: 22px 24px;
+    margin-bottom: 20px;
+    overflow-wrap: break-word;
+}
+
+.first {
+    border-right-color: #0369A1;
+}
+
+.second {
+    border-right-color: #15803D;
+}
+
+.badge {
+    display: inline-block;
+    padding: 4px 12px;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+.first .badge {
+    color: #0369A1;
+    background-color: #E0F2FE;
+}
+
+.second .badge {
+    color: #15803D;
+    background-color: #DCFCE7;
+}
+
+h2 {
+    margin: 12px 0 6px;
+    color: #0F172A;
+    font-size: 23px;
+}
+
+.description, .date {
+    margin: 0 0 12px;
+    color: #64748B;
+}
+
+.date {
+    font-size: 14px;
+}
+
+button {
+    max-width: 100%;
+    padding: 9px 18px;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: inherit;
+    font-size: 15px;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.first button {
+    background-color: #0369A1;
+}
+
+.second button {
+    background-color: #15803D;
+}
